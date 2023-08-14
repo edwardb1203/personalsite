@@ -3,15 +3,11 @@ title = "EDWARD BAKER"
 languageCode = "en-us"
 theme = "ananke"
 
-DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 3 # sets how many articles will appear on the page
 googleAnalytics = ""
 enableRobotsTXT = true
 
-title = "EDWARD BAKER"
-weight = 1
-contentDir = "content"
 
 [params]
   author = "Edward Baker"
