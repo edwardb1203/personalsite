@@ -19,8 +19,9 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "github"
 url = "https://github.com/edwardb1203"
-name2 = "linkedin"
-url2 = "https://www.linkedin.com/in/edwarddbaker/"
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/edwarddbaker/"
 
 
 
