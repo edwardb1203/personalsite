@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "A little bit about me"
-featured_image: '/images/headshot.jpg'
+featured_image: '/images/wolves.jpg'
 menu:
   main:
     weight: 1
