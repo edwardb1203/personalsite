@@ -1,5 +1,5 @@
 baseURL = "http://edwarddbaker.org"
-title = "Hi, I'm Edward"
+title = "EDWARD BAKER"
 languageCode = "en-us"
 theme = "ananke"
 
@@ -10,13 +10,10 @@ googleAnalytics = ""
 enableRobotsTXT = true
 
 [params]
-  text_color = ""
-  author = ""
-  favicon = ""
-  site_logo = ""
-  description = "data scientist | musician | scholar"
+  author = "Edward Baker"
+  site_logo = "'/images/icon.jpg'"
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
+  background_color_class = "bg-navy"
   recent_posts_number = 3
 
 [[params.ananke_socials]]
