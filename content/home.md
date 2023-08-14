@@ -2,7 +2,6 @@
 title: "Hi, I'm Edward"
 
 description: "data scientist | musician | scholar"
-theme_version: '2.8.2'
 cascade:
   featured_image: '/images/boone.jpg'
 ---
