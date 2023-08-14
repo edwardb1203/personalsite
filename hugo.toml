@@ -1,4 +1,4 @@
-baseURL = 'https://master--celadon-manatee-03c87f.netlify.app/'
+baseURL = 'http://edwarddbaker.org'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
