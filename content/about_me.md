@@ -9,4 +9,11 @@ menu:
 
 {{< figure src="/images/headshot.jpg">}}
 
-A little bit about me!
+This picture is from Arizona, on North Mountain. I lived there until 2011. Now I live in Raleigh, NC. 
+
+I'm currently pursuing my masters degree in analytics from the Institute for Advanced Analytics @ NCSU. 
+I recently graduated from UNC Chapel Hill with a degree in computer science and a minor in religious studies.
+
+
+If you would like to reach out for coffee or questions you can contact me at edbaker2@ncsu.edu.
+
