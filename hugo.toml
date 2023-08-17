@@ -10,6 +10,13 @@ enableRobotsTXT = true
 
 contentDir = "content"
 
+# the menu.main syntax allows me to add stuff to the navbar
+[[menu.main]]
+name = "CV"
+url = "/images/resume.pdf"
+weight = 3
+
+
 [params]
   author = "Edward Baker"
   favicon = "images/icon.png"
