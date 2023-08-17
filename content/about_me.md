@@ -9,11 +9,13 @@ menu:
 
 {{< figure src="/images/headshot.jpg">}}
 
-This picture is from Arizona, on North Mountain. I lived there until 2011. Now I live in Raleigh, NC. 
+This is me on North Mountain in Arizona. I lived there until 2011. Now I live in Raleigh, NC. 
 
-I'm currently pursuing my masters degree in analytics from the Institute for Advanced Analytics @ NCSU. 
-I recently graduated from UNC Chapel Hill with a degree in computer science and a minor in religious studies.
+I'm currently a masters student in analytics @NCSU.  
+I graduated from UNC-Chapel Hill in 2023 with a B.S. in computer science and a minor in religious studies.
 
+I like to read about religion, play music, and explore the outdoors in my freetime.  
+I also like to play nerdy board games. 
 
-If you would like to reach out for coffee or questions you can contact me at edbaker2@ncsu.edu.
+If you want to grab a coffee or chat you can contact me at edbaker2@ncsu.edu.
 
