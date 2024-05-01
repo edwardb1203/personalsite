@@ -1,0 +1,208 @@
+/* This file contains all the CSS styles for my website. */
+
+/* This is the body, this is where i set the windows xp background. */
+body {
+    position: relative;
+    background-color: rgb(36, 142, 255);
+    background-image: url("C:/Users/edbak/Desktop/personalsite2/Home Page Assets/xp.png");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+/* This is the div containing the image of the sweeper game. */
+.sweeper-game {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* These correspond to the size of the image. */
+  width: 656.5px;
+  height: 645.1px;
+}
+
+/* This is the actual image of the sweeper game. */
+.static-game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.3); /* Adjust the scale value as needed */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.581);
+  border-radius: 10px; 
+  border-color: #1c53ec;
+}
+
+/* This is the actual image of the sweeper game. */
+.animated-game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 570px;
+  width: 645px;
+  transform: translate(-50%, -45%) scale(1.0); /* Adjust the scale value as needed */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.581);
+}
+
+/* Tried to use the windowsXP font here for welcome banner... believe it is Tahoma after some research. */
+.welcome-banner {
+  position: absolute;
+  height: 30px;
+  width: 558px;
+  padding-left: 2px;
+  border-radius: 4px;
+  transform: translate(0.5%, -50%); 
+  background-image: linear-gradient(to bottom, #245dda, #0044d5);
+  color: white;
+  font-family: Tahoma, Verdana, Geneva, sans-serif; /* Use the Windows XP font */
+  font-size: 16px;
+  display: inline-block;
+  filter: blur(0.6px);
+}
+
+/* This is for the buttons over the buttons. */
+.window-buttons{
+  position: absolute;
+  transform: translate(630%, 10%); 
+}
+
+/* This is for the buttons inside the div. */
+.window-buttons button{
+  height: 27px;
+  width: 27px;
+  background-color: transparent;
+  padding-right: 2px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.581);
+}
+
+/* This is for the buttons over the buttons. */
+.happy-button{
+  position: absolute;
+  transform: translate(538%, 195%); 
+}
+
+/* This is for the buttons inside the div. */
+.happy-button button{
+  height: 44px;
+  width: 56px;
+  background-color: transparent;
+  padding-right: 2px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+}
+
+/* 
+This if for the navigation bar. */
+.navigation{
+  position: absolute;
+  transform: translate(4%, 190%); 
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  font-weight: lighter;
+  background-color: rgb(238, 238, 238);
+  filter: blur(0.6px);
+}
+
+/* This is for the links within .navigation */
+.navigation a{
+  color: black;
+  text-decoration: none;
+  padding-right: 5px;
+  font-size: 13px;
+}
+
+/* This is for the links within .navigation */
+.navigation a:hover{
+  color:#0044d5;
+  text-decoration: underline;
+}
+
+/* This is the text-box on the welcome page. */
+.text-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  width: 450px;
+  height: 480px;
+  background-color: rgb(188, 186, 186);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.581);
+  border-radius: 5px;
+  border-style: groove;
+  overflow: hidden;
+}
+
+/* This is the text about me section. */
+.about-me{
+  position: absolute;
+  transform: translate(0.5%, -5%); 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.p1{
+  color:#0044d5;
+}
+
+.p2{
+  color:rgb(0, 172, 23);
+}
+
+.p3{
+  color:red;
+}
+
+.ds span{
+  display: inline-block;
+  animation: wave-text 1s ease-in-out infinite;
+}
+
+.ds {
+  span:nth-of-type(1){ animation-delay: 0.0s; }
+  span:nth-of-type(2){ animation-delay: 0.1s; }
+  span:nth-of-type(3){ animation-delay: 0.2s; }
+  span:nth-of-type(4){ animation-delay: 0.3s; }
+  span:nth-of-type(5){ animation-delay: 0.4s; }
+  span:nth-of-type(6){ animation-delay: 0.5s; }
+  span:nth-of-type(7){ animation-delay: 0.6s; }
+  span:nth-of-type(8){ animation-delay: 0.7s; }
+  span:nth-of-type(9){ animation-delay: 0.8s; }
+  span:nth-of-type(10){ animation-delay: 0.9s; }
+}
+
+@keyframes wave-text{
+  00%{
+    transform: translateY(0em);
+  }
+  60%{
+    transform: translateY(-0.6em);
+  }
+  100%{
+    transform: translateY(0em);
+  }
+}
+
+
+.me{
+  width: 175px; 
+  height: 175px;
+  border:rgb(244, 255, 26);
+  border-style:groove;
+  margin: auto;
+  display: block;
+  transform: translate(0%, 155%);
+}
+
+.photo-dec{
+  transform: translate(0%, 155%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 9px;
+  text-align: center;
+  transform: translate(0%, 2500%);
+}
+
+.update{
+  transform: translate(-100%, 155%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 9px;
+  transform: translate(0%, 2350%);
+}
