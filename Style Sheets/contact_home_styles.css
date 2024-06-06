@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(232, 229, 39);
+}
+
+.contact-home {
+    display: grid; 
+    grid-template-columns: 1.5fr 0.5fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "contact-welcome-banner contact-welcome-banner contact-welcome-banner"
+      "contact-navigation contact-home-art contact-home-art"
+      "contact-navigation contact-home-art contact-home-art"; 
+  }
+
+  .contact-welcome-banner{ 
+    grid-area: contact-welcome-banner;
+    color: rgb(0, 21, 255);
+    text-align: center;
+ }
+
+ .welcome-text {
+    font-size: xx-large;
+    margin-bottom: 5px;
+ }
+
+ .home-navigation a{
+    color: rgb(0, 21, 255);
+    text-decoration: none;
+ }
+
+ .contacts {
+    font-size: large;
+    text-decoration: wavy;
+ }
+
+ .home-navigation a:hover{
+    color: rgb(0, 229, 255);
+    text-decoration: underline;
+  }
+
+  .contact-navigation { 
+    grid-area: contact-navigation;
+    margin-left: 275px;
+ }
+
+  .contact-navigation a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: larger;
+    color: rgb(0, 21, 255);
+  }
+
+  .email {
+    display: block;
+    margin-bottom: 10px;
+    font-size: larger;
+    color: rgb(0, 21, 255);
+    margin-bottom: 15px;
+  }
+
+  .contacts span{
+    display: inline-block;
+    font-size: xx-large;
+    animation: wave-text 1s ease-in-out infinite;
+  }
+  
+  .contacts {
+    span:nth-of-type(1){ animation-delay: 0.0s; }
+    span:nth-of-type(2){ animation-delay: 0.1s; }
+    span:nth-of-type(3){ animation-delay: 0.2s; }
+    span:nth-of-type(4){ animation-delay: 0.3s; }
+    span:nth-of-type(5){ animation-delay: 0.4s; }
+    span:nth-of-type(6){ animation-delay: 0.5s; }
+    span:nth-of-type(7){ animation-delay: 0.6s; }
+    span:nth-of-type(8){ animation-delay: 0.7s; }
+    span:nth-of-type(9){ animation-delay: 0.8s; }
+    span:nth-of-type(10){ animation-delay: 0.9s; }
+  }
+
+  @keyframes wave-text{
+    00%{
+      transform: translateY(0em);
+    }
+    60%{
+      transform: translateY(-0.6em);
+    }
+    100%{
+      transform: translateY(0em);
+    }
+  }
+
+  .contact-home-art { 
+    grid-area: contact-home-art;
+    margin-left: 150px;
+    margin-top: -50px;
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: rgb(0, 229, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.581);
+ }

@@ -1,0 +1,60 @@
+
+body {
+    background-color: rgba(158, 68, 211, 0.678);
+}
+
+.blog-home {
+    display: grid; 
+    grid-template-columns: 1.5fr 0.5fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "blog-welcome-banner blog-welcome-banner blog-welcome-banner"
+      "blog-navigation blog-home-art blog-home-art"
+      "blog-navigation blog-home-art blog-home-art"; 
+  }
+
+  .blog-welcome-banner{ 
+    grid-area: blog-welcome-banner;
+    color: rgb(89, 103, 255);
+    text-align: center;
+ }
+
+ .welcome-text {
+    font-size: xx-large;
+    margin-bottom: 5px;
+ }
+
+ .home-navigation a{
+    color: rgb(89, 103, 255);
+    text-decoration: none;
+ }
+
+ .home-navigation a:hover{
+    color:rgb(125, 255, 89);
+    text-decoration: underline;
+  }
+
+  .blog-navigation { 
+    grid-area: blog-navigation;
+    margin-left: 275px;
+ }
+
+  .blog-navigation a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: larger;
+    color: rgb(125, 255, 89);
+  }
+
+  .blog-home-art { 
+    grid-area: blog-home-art;
+    margin-left: 150px;
+    margin-top: -50px;
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: rgb(0, 221, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.581);
+ }

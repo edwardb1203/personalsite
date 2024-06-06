@@ -197,12 +197,12 @@ This if for the navigation bar. */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 9px;
   text-align: center;
-  transform: translate(0%, 2500%);
+  transform: translate(0%, 2600%);
 }
 
 .update{
   transform: translate(-100%, 155%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 9px;
-  transform: translate(0%, 2350%);
+  transform: translate(0%, 2490%);
 }
