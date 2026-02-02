@@ -148,7 +148,7 @@ This if for the navigation bar. */
 }
 
 .p3{
-  color:red;
+  color:yellow;
 }
 
 .ds span{
@@ -183,13 +183,13 @@ This if for the navigation bar. */
 
 
 .me{
-  width: 175px; 
-  height: 175px;
+  width: 100px; 
+  height: 100px;
   border:rgb(244, 255, 26);
   border-style:groove;
   margin: auto;
   display: block;
-  transform: translate(0%, 155%);
+  transform: translate(0%, 300%);
 }
 
 .photo-dec{
@@ -197,12 +197,12 @@ This if for the navigation bar. */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 9px;
   text-align: center;
-  transform: translate(0%, 2600%);
+  transform: translate(0%, 2850%);
 }
 
 .update{
   transform: translate(-100%, 155%);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 9px;
-  transform: translate(0%, 2490%);
+  transform: translate(0%, 3000%);
 }

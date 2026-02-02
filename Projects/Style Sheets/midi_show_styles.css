@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(60, 114, 195);
+}
+
+/* ---------- Project Page Layout ---------- */
+.project-page {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* ---------- Header + Navigation ---------- */
+.project-welcome-banner {
+    color: rgb(241, 28, 234);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.welcome-text {
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+
+.home-navigation {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-navigation a {
+    display: inline-block;
+    margin-right: 15px;
+    color: rgb(241, 28, 234);
+    text-decoration: none;
+}
+
+.home-navigation a:hover {
+    color: rgb(255, 60, 151);
+    text-decoration: underline;
+}
+
+/* ---------- Main Project Content ---------- */
+.project-content {
+    display: grid;
+    grid-template-columns: 1.4fr 0.6fr;
+    gap: 50px;
+    align-items: start;
+}
+
+/* ---------- Project Description ---------- */
+.project-description p {
+    font-size: large;
+    color: rgb(241, 28, 234);
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Medium link callout */
+.project-link a {
+    color: rgb(50, 25, 0);
+    font-size: larger;
+    text-decoration: none;
+}
+
+.project-link a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Project Art ---------- */
+.project-art {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project-midi-art {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: rgb(241, 28, 234);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.58);
+}
+
+/* ---------- Home Page Grid (unchanged, reusable) ---------- */
+.project-home {
+    display: grid; 
+    grid-template-columns: 1.5fr 0.5fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "project-welcome-banner project-welcome-banner project-welcome-banner"
+      "project-navigation project-home-art project-home-art"
+      "project-navigation project-home-art project-home-art"; 
+}
+
+/* ---------- Mobile Responsive ---------- */
+@media (max-width: 900px) {
+    .project-content {
+        grid-template-columns: 1fr;
+    }
+}
