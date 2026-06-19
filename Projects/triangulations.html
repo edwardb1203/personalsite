@@ -1,1 +1,75 @@
-<p>hey! this one isn't done yet!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Triangulations</title>
+
+    <link rel="stylesheet" href="Style Sheets/triangulations_styles.css">
+</head>
+<p>Some interview questions I created for recent candidate interviews</p>
+ <div class = 'home-navigation'>
+            <a href="../index.html">Home</a>
+            <a href="../project_home.html">Projects</a>
+        </div>
+<section class="question-section">
+  <h2>Triangulations</h2>
+
+  <div class="question-card">
+    <h3> Polygon Triangulation</h3>
+
+    <p>
+      A polygon is a plane (2D) shape formed by straight line segments connected
+      end-to-end to form a closed figure. Each side meets exactly two other sides
+      at its endpoints, and no two non-adjacent sides intersect. Examples include
+      triangles, rectangles, and pentagons. A circle is not a polygon because its
+      boundary is curved.
+    </p>
+
+    <h4>Prompts</h4>
+    <ol type="a">
+      <li><strong></strong> Can every polygon be divided into triangles using diagonals that lie entirely inside the polygon?</li>
+      <li><strong></strong> If a polygon has <em>n</em> vertices, how many triangles will such a triangulation contain?</li>
+      <li><strong></strong> How many diagonals are added in the triangulation?</li>
+    </ol>
+
+    <h4>Answers</h4>
+    <ol type="a">
+      <li>
+        <strong></strong> Every simple polygon can be triangulated. The smallest polygon possible is a triangle.
+        If we add an additional vertex, there must still be a triangle in the result. Conversely, any polygon with more
+        than three vertices can be reduced by one vertex while preserving simplicity by removing an ear.
+      </li>
+      <li>
+        <strong></strong> A triangle has 3 vertices and yields 1 triangle.
+        In general, a polygon with <em>N</em> vertices admits <em>N − 2</em> triangles.
+      </li>
+      <li>
+        <strong></strong> A triangulation of a polygon with <em>N</em> vertices adds <em>N − 3</em> diagonals.
+      </li>
+    </ol>
+  </div>
+
+  <h2>Raytracing</h2>
+
+  <div class="question-card">
+    <h3>Point Inside or Outside a Polygon</h3>
+
+    <p><em>I will provide pen and paper. This will only be asked if we move through other questions quickly.</em></p>
+
+    <ol type="a">
+      <li>
+        A polygon is a plane shape (2D) with straight lines connected by vertices.
+        Examples include triangles, rectangles, and pentagons. A circle is not a polygon because it has a curved side.
+      </li>
+      <li>
+        A point can either exist inside or outside a polygon. For this example,
+        points cannot exist on line edges or vertices.
+      </li>
+      <li>
+        Come up with a rule that determines whether a point is inside or outside a polygon.
+        The only thing you are allowed to do is draw a line from anywhere that only stops when the point is hit.
+        Consider what patterns, intersections, or counts might help determine whether the point is inside or outside.
+      </li>
+    </ol>
+  </div>
+</section>

@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(60, 114, 195);
+}
+
+.home-navigation {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-navigation a {
+    display: inline-block;
+    margin-right: 15px;
+    color: rgb(241, 28, 234);
+    text-decoration: none;
+}
+
+.home-navigation a:hover {
+    color: rgb(255, 60, 151);
+    text-decoration: underline;
+}
+
+/* ---------- Question Page Layout ---------- */
+.question-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "Times New Roman", serif;
+    color: rgb(241, 28, 234);
+}
+
+/* ---------- Section Headers ---------- */
+.question-section h2 {
+    color: rgb(241, 28, 234);
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border-bottom: 3px double rgb(50, 25, 0);
+    padding-bottom: 8px;
+}
+
+/* ---------- Question Cards ---------- */
+.question-card {
+    background-color: rgb(215, 203, 156);
+    border: 4px groove rgb(241, 28, 234);
+    border-radius: 4px;
+    padding: 22px 26px;
+    margin: 25px 0;
+    color: rgb(50, 25, 0);
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Card Headings ---------- */
+.question-card h3 {
+    margin-top: 0;
+    color: rgb(60, 114, 195);
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.question-card h4 {
+    color: rgb(241, 28, 234);
+    background-color: rgb(60, 114, 195);
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 8px;
+}
+
+/* ---------- Text ---------- */
+.question-card p,
+.question-card li {
+    font-size: large;
+    line-height: 1.55;
+}
+
+.question-card ul,
+.question-card ol {
+    padding-left: 28px;
+}
+
+.question-card li {
+    margin-bottom: 12px;
+}
+
+/* ---------- Emphasis ---------- */
+.question-card strong {
+    color: rgb(255, 60, 151);
+}
+
+.question-card em {
+    color: rgb(60, 114, 195);
+}
+
+/* ---------- Links, if used later ---------- */
+.question-section a {
+    color: rgb(50, 25, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.question-section a:hover {
+    color: rgb(255, 60, 151);
+    text-decoration: underline;
+}
+
+/* ---------- Slightly Strange Hover Effect ---------- */
+.question-card:hover {
+    background-color: rgb(225, 211, 170);
+    border-color: rgb(255, 60, 151);
+}
+
+/* ---------- Mobile Responsive ---------- */
+@media (max-width: 700px) {
+    .question-section {
+        margin: 20px auto;
+        padding: 14px;
+    }
+
+    .question-card {
+        padding: 18px;
+        box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.35);
+    }
+}
